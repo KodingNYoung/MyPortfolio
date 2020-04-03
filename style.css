@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* nav bar */
+.nav-box{
+    background-color:#090119;
+    width:100%;
+    position: fixed;
+    z-index: 4;
+}
+.nav-box a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    padding: 15px 10px;
+    text-transform: capitalize;
+    float: right;
+    margin-right: 10px;
+}
+.nav-box a:hover{
+    background-color: whitesmoke;
+    color:#090119;
+}
+
+/* about section|| cover */
+.cover{
+    background-color:#210E49;
+    width: 100%;
+    height:100vh;
+    display: flex;
+}
+
+.cover .img-container{
+    min-width:380px;
+    max-width: 450px;
+    height: 100vh;
+}
+.cover .description{
+    text-align: center;
+    padding:30vh 10%;
+}
+.cover h4{
+    font-size: 2em;
+    color:rgb(196, 179, 190);
+}
+
+
+.work{
+    background-color: #554083;
+}
+
+.work h1{
+    font-family: Lobster;
+    letter-spacing: 7px;
+    border-bottom:2px solid rgb(128, 122, 128);
+	border-right:2px solid rgb(128, 122, 128);
+	width:400px;
+	text-align: center;
+}
+.work .flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.work .flex .image{
+    -webkit-box-shadow: 10px 9px 11px -10px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 9px 11px -10px rgba(0,0,0,0.75);
+box-shadow: 10px 9px 11px -10px rgba(0,0,0,0.75);
+   margin: 50px; 
+   
+}
+.work .flex .image .image-container{
+    margin-bottom: px;
+    overflow: hidden;
+    width: 450px;
+    height:500px ; 
+}
+.work .flex .image img{
+    width: 100%;
+    height: 100%;
+    transition: all 1s;
+}
+.work .flex .image img:hover{
+    transform: scale(1.1);
+}
+.work .flex .image a{
+    text-decoration: none;
+}
+.work .flex .image .text{
+    width: 420px;
+    overflow: hidden;
+    text-align: center;
+    color: white;
+    background-color: turquoise;
+    padding: 15px;
+}
+
+/* contact */
+.contact{
+    background-color:#090119;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+.contact .contact-message{
+    padding: 30px;
+}
+.contact h4{
+    font-size: 40px;
+    font-family: 'Roboto Slab', serif;
+}
+.contact i{
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+}
+.contact a{
+    text-decoration: none;
+    padding: 0 10px;
+    font-size: 30px;
+    word-spacing: 5px;
+
+}
+.contact a i{
+    font-family: 'Merriweather', serif;
+}
+    
