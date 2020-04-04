@@ -51,7 +51,7 @@
 
 
 .work{
-    min-width: 600px;
+    min-width: 650px;
     /* width: 100%; */
     background-color: #554083;
 }
@@ -105,7 +105,7 @@ box-shadow: 10px 9px 11px -10px rgba(0,0,0,0.75);
 
 /* contact */
 .contact{
-    min-width: 600px;
+    min-width: 650px;
     background-color:#090119;
     color: white;
     padding: 20px 0;
