@@ -4,7 +4,7 @@
 }
 /* nav bar */
 .nav-box{
-    background-color:#090119;
+    background-color: #131F74;
     width:100%;
     position: fixed;
     z-index: 4;
@@ -40,29 +40,34 @@
     height: 100vh;
 }
 .cover .description{
-    background-color:#210E49;
+    background-color:#11121C;
+    color:#7F88D0;
     text-align: center;
     padding:30vh 10%;
 }
 .cover h4{
-    font-size: 2em;
-    color:rgb(196, 179, 190);
+    font-size: 40px;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+}
+.cover p{
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
 }
 
 
 .work{
     min-width: 650px;
-    /* width: 100%; */
-    background-color: #554083;
+    background-color: #202D95;
 }
 
 .work h1{
+    padding-top: 30px;
     font-family: Lobster;
     letter-spacing: 7px;
-    border-bottom:2px solid rgb(128, 122, 128);
-	border-right:2px solid rgb(128, 122, 128);
-	width:400px;
-	text-align: center;
+    text-align: center;
+    text-decoration: underline;
+    color: #cbce91ff;
 }
 .work .flex{
     width: 100%;
@@ -99,14 +104,14 @@ box-shadow: 10px 9px 11px -10px rgba(0,0,0,0.75);
     overflow: hidden;
     text-align: center;
     color: white;
-    background-color: turquoise;
+    background-color:#7F88D0;
     padding: 15px;
 }
 
 /* contact */
 .contact{
     min-width: 650px;
-    background-color:#090119;
+    background-color: #131F74;
     color: white;
     padding: 20px 0;
     text-align: center;
@@ -127,9 +132,30 @@ box-shadow: 10px 9px 11px -10px rgba(0,0,0,0.75);
     padding: 0 10px;
     font-size: 30px;
     word-spacing: 5px;
-
+    color: gray;
+    transition:all 0.5s;
+}
+.contact a:hover{
+    color: white;
+}
+.contact a span{
+    padding-top: 10px;
+    transition:all 0.5s;
+}
+.contact a span:hover{
+    transform: translateY(-10px);
 }
 .contact a i{
     font-family: 'Merriweather', serif;
 }
+
     
+/*background colors */
+.cover, .cover .description{
+    /* light with dark text */
+    
+}
+.work{
+    /*  */
+    
+}
