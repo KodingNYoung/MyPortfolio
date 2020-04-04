@@ -26,6 +26,8 @@
 
 /* about section|| cover */
 .cover{
+    min-width: 600px;
+    background-size: cover;
     background-color:#210E49;
     width: 100%;
     height:100vh;
@@ -38,6 +40,7 @@
     height: 100vh;
 }
 .cover .description{
+    background-color:#210E49;
     text-align: center;
     padding:30vh 10%;
 }
@@ -48,6 +51,8 @@
 
 
 .work{
+    min-width: 600px;
+    /* width: 100%; */
     background-color: #554083;
 }
 
@@ -60,6 +65,7 @@
 	text-align: center;
 }
 .work .flex{
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -99,6 +105,7 @@ box-shadow: 10px 9px 11px -10px rgba(0,0,0,0.75);
 
 /* contact */
 .contact{
+    min-width: 600px;
     background-color:#090119;
     color: white;
     padding: 20px 0;
