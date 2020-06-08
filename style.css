@@ -1,161 +1,99 @@
-*{
+/* #11121C - background*/
+/* #7F88D0- decription color*/
+/* #7F88D0  - for the links, transform to  white*/ 
+/* 
+*/
+/* font-family: 'Roboto Slab', serif; - for the header*/
+
+/*  font-family: 'Caveat', cursive; - for the paragraph */
+*, *::after, *::before{
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    box-sizing: border-box;
 }
-/* nav bar */
-.nav-box{
-    background-color: #131F74;
-    width:100%;
-    position: fixed;
-    z-index: 4;
+html{
+    font-size: 1.2vw;
+    /* font-size: 1.5vw; */
 }
-.nav-box a{
-    color: whitesmoke;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5em;
-    padding: 15px 10px;
-    text-transform: capitalize;
-    float: right;
-    margin-right: 10px;
+@media screen and (min-width: 750px){
+    html{
+        font-size: 12px;
+    }
 }
-.nav-box a:hover{
-    background-color: whitesmoke;
-    color:#090119;
-}
-
-/* about section|| cover */
-.cover{
-    min-width: 650px;
-    background-size: cover;
-    background-color:#210E49;
-    width: 100%;
-    height:100vh;
+body{
     display: flex;
-}
-
-.cover .img-container{
-    min-width:380px;
-    max-width: 450px;
-    height: 100vh;
-}
-.cover .description{
-    background-color:#11121C;
-    color:#7F88D0;
-    text-align: center;
-    padding:20vh 10%;
-}
-.cover h4{
-    font-size: 40px;
-    font-family: 'Roboto Slab', serif;
-    color: white;
-}
-.cover p{
-    font-family: 'Caveat', cursive;
-    font-size: 25px;
-}
-
-
-.work{
-    min-width: 650px;
-    background-color: #202D95;
-}
-
-.work h1{
-    padding-top: 30px;
-    font-family: Lobster;
-    letter-spacing: 7px;
-    text-align: center;
-    text-decoration: underline;
-    color: #cbce91ff;
-}
-.work .flex{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #11121C;
+    height: 100vh;
+    min-width: 300px;
 }
-.work .flex .image{
-    -webkit-box-shadow: 10px 9px 11px -10px rgba(0,0,0,0.75);
--moz-box-shadow: 10px 9px 11px -10px rgba(0,0,0,0.75);
-box-shadow: 10px 9px 11px -10px rgba(0,0,0,0.75);
-   margin: 50px; 
-   
+.passport-container{
+    max-width: 300px;
+    min-width: 80px;
+    width: 40vw;
+    height: 40vw;
+    max-height: 300px;
+    min-width: 80px;
 }
-.work .flex .image .image-container{
-    margin-bottom: px;
-    overflow: hidden;
-    width: 450px;
-    height:500px ; 
-}
-.work .flex .image img{
+.passport-container img{
     width: 100%;
     height: 100%;
-    transition: all 1s;
+    border-radius: 50%;
 }
-.work .flex .image img:hover{
-    transform: scale(1.1);
-}
-.work .flex .image a{
-    text-decoration: none;
-}
-.work .flex .image .text{
-    width: 420px;
-    overflow: hidden;
+.description{
     text-align: center;
-    color: white;
-    background-color:#7F88D0;
-    padding: 15px;
+    margin: 20px 0;
 }
-
-/* contact */
-.contact{
-    min-width: 650px;
-    background-color: #131F74;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-}
-.contact .contact-message{
-    padding: 30px;
-}
-.contact h4{
-    font-size: 40px;
+.description .heading{
+    color: whitesmoke;
     font-family: 'Roboto Slab', serif;
+    font-size: 4rem;
 }
-.contact i{
+.description .paragraph{
+    color: #7F88D0;
     font-family: 'Caveat', cursive;
-    font-size: 25px;
+    font-size: 2.3rem;
 }
-.contact a{
-    text-decoration: none;
-    padding: 0 10px;
-    font-size: 30px;
-    word-spacing: 5px;
-    color: gray;
-    transition:all 0.5s;
-}
-.contact a:hover{
+.nav-links{
     color: white;
+    font-size: 4.3rem;
 }
-.contact a span{
-    padding-top: 10px;
-    transition:all 0.5s;
+.nav-links a{
+    text-decoration: none;
+    color: #7F88D0;
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid #7F88D0;
+    padding: 10px 15px;
+    margin:0 10px;
+    font-size: 2.0rem;
+    border-radius: 3px;
+    animation-name: colorAnimate;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay:0s; 
+    animation-iteration-count: infinite;
 }
-.contact a span:hover{
-    transform: translateY(-10px);
+.nav-links a:hover{
+    animation: none;
+    color:#11121C;
+    background-color:#7F88D0 ;
+    font-weight: bolder;
 }
-.contact a i{
-    font-family: 'Merriweather', serif;
+@keyframes colorAnimate{
+    0%{
+        color: #7F88D0;
+        border-color: #7F88D0;
+    }
+    50%{
+        color: white;
+        border-color: white;
+    }
+    100%{
+        color: #7F88D0;
+        border-color: #7F88D0;
+    }
 }
 
-    
-/*background colors */
-.cover, .cover .description{
-    /* light with dark text */
-    
-}
-.work{
-    /*  */
-    
-}
+
