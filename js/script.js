@@ -1,5 +1,5 @@
 // by default display the about field
-document.getElementById("contact").classList.add("show");
+document.getElementById("about").classList.add("show");
 // create a function that will turn the background of the clicked btn white AND display the content of the corresponding tab
 const makeWhite = (btn) => {
     // first get the btns that were active earlier
