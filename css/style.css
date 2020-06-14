@@ -25,7 +25,10 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #11121C;
+    background-image: linear-gradient(to top, #11121bbd,#494b6880),url(../img/bubblydefault.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     height: 100vh;
     min-width: 300px;
 }

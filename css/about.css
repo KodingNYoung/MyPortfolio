@@ -267,7 +267,7 @@ main.display-section .tabs-container{
 .project-card:hover .links{
     max-height: 100px;
 }
-/* media queries for the grid */
+/* media queries for the project card grid */
 @media screen and (max-width:1106px){
     .project-card-container{
         grid-template-columns: repeat(3, 1fr);
@@ -293,6 +293,9 @@ main.display-section .tabs-container{
         grid-template-columns: 1fr;
     }
 }
+
+/* CONTACTS */
+
 /* for wider screen keep a constant nav-aside bar min-1000px*/
 @media screen and (min-width: 1000px){
     body{
