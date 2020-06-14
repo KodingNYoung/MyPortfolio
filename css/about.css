@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*, *::before, *::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+html{
+    font-size: 10px;
+}
+body{
+    display: grid;
+    grid-template-columns: 30vw 70vw;
+    gap: 20px;
+    background-color: rgba(94, 124, 145, 0.308);
+    scrollbar-width: 2%;
+    scrollbar-color: #888 #f1f1f1;
+    padding: 15px;
+    overflow-x: hidden;
+}
+/* sizing the scroll bar of the page */
+body::-webkit-scrollbar{
+    width: 2%; 
+}
+/* Track */
+body::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+/* Handle on hover */
+body::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+/* the info section */
+nav.aside{
+    font-size: 2rem;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+/* for bigger screen the nav should be fixed to the left hand */
+.aside-info{
+    position: fixed;
+    width: 30vw;
+    height: 100vh;
+}
+/* content of the nav-aside */
+.info{
+    width: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+/* layout of the passport + other info */
+.info .self-info{
+    display: flex;
+    flex-wrap: wrap;
+    text-transform: capitalize;
+}
+.passport{
+    width: 150px;
+    height: 150px;
+}
+
+.passport img{
+    width: 85%;
+    height: 100%;
+    border-radius: 1px;
+}
+.self-info .details div{
+    padding:10px 0;
+}
+.self-info .details .name span{
+    font-weight: bolder;
+}
+
+/* proficiencies */
+.proficiency{
+    margin: 10px 0;
+}
+.proficiency div{
+    display: inline;
+}
+/* styling the tags themselve, using line height to replace margin for inline elements*/
+.proficiency span{
+    border: 1px solid;
+    padding: 5px 8px;
+    margin: 2px;
+    line-height: 35px;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    white-space: nowrap;
+}
+/* color the text base on the basis of the  language */
+.proficiency .css{
+    color: #2a63eb;
+    border-color: #2a63eb;
+}
+.proficiency .html{
+    color: #de4b25;
+    border-color: #de4b25;
+}
+.proficiency .js{
+    color:#e9d54c;
+    border-color: #e9d54c;
+}
+.proficiency .git{
+    color:#313030;
+    border-color: #313030;
+}
+
+/* social contacts */
+.contact-media{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.contact-media a{
+    margin: 10px;
+    color: white;
+    background-color:#7F88D0;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 1.4rem;
+}
+
+
+/* styling the nav-bar */
+/* for bigger screens, the bar should disappear */
+.tab-btns{
+    display: none;
+}
+/* the tabs */
+.tabs{
+    display: none;
+    animation: fade-in 1s linear 0s 1 forwards;
+}
+/* general btns */
+button{
+    cursor: pointer;
+}
+/* buttons for wide screens */
+button[w-nav-btn]{
+    /* background-color: red; */
+    margin-bottom: 20px;
+    border: none;
+    background-color: transparent;
+    text-transform: capitalize;
+    padding: 5px 0;
+    border-bottom: 1px dashed; 
+    color: #107896;
+    outline: none;
+    display: block;
+}
+button[w-nav-btn].active{
+    color: #C02F1D;
+}
+
+/*  the main section of the page */
+main.display-section{
+    position: relative;
+    width: 97%;
+}
+/* each tab i.e about, projects, contact */
+main.display-section> div>div {
+    height: fit-content;
+    font-size : 2rem;
+    border-radius: 5px;
+    padding: 20px;
+
+}
+/* the container of the tabs under the main section */
+main.display-section .tabs-container{
+    width: 95%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+/* PROJECTS */
+/* styling for the project card container */
+.project-card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+/* styling the project cards */
+.project-card{
+    border: 1px solid  #7F88D0;
+    border-radius: 4px;
+    height: fit-content;
+    box-shadow: 5px 5px 12px -5px #7F88D0;
+}
+/* styling the image */
+.img-container{
+    width: 100%;
+    height: fit-content;
+    overflow: hidden;
+    position: relative;
+    border-radius: 4px 4px 0 0;
+
+}
+.img-container img{
+    width: 100%;
+    transition: transform 0.5s linear;
+    border-radius: 4px 4px 0 0;
+}
+/* the description */
+.project-description{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1.5rem;
+    padding: 5px;
+    border-top: 1px solid #7F88D0;
+}
+.project-description .description__heading{
+    text-transform: capitalize;
+}
+.project-description a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.project-description a:hover{
+    border-bottom: 1px dashed;
+}
+
+.project-card .links{
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    max-height: 0px;
+    overflow: hidden;
+    transition:max-height 0.7s linear;
+}
+.project-card .links a{
+    text-decoration: none;
+    background-color: #7F88D0;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 15px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+}
+
+
+.img-container img:hover{
+    transform: scale(1.1);
+}
+.project-card:hover .img-container::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right:0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+    pointer-events: none;
+}
+.project-card:hover .links{
+    max-height: 100px;
+}
+/* media queries for the grid */
+@media screen and (max-width:1106px){
+    .project-card-container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media screen and (max-width:872px){
+    .project-card-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width:700px){
+    .project-card-container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media screen and (max-width:598px){
+    .project-card-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width:598px){
+    .project-card-container{
+        grid-template-columns: 1fr;
+    }
+}
+/* for wider screen keep a constant nav-aside bar min-1000px*/
+@media screen and (min-width: 1000px){
+    body{
+        display: grid;
+        grid-template-columns: 320px auto;
+    }
+    .aside-info{
+        width: 320px;
+    }
+    main.display-section{
+        width: 100%;
+    }
+    main.display-section .tabs-container{
+        width: 100%;
+    }
+}
+/*  for smaller screen, take the nav-aside bar upward max-650px*/
+@media screen and (max-width: 700px){
+    /* make the page have one column */
+    body{
+        display: grid;
+        grid-template-columns: 1fr;  
+    }
+    /* the info bar is relative in smaller screen */
+    nav.aside{
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    /* make the height of the info to fit the content */
+    .aside-info{
+        position: relative;
+        width: 100%;
+        height: fit-content;
+    }
+    /* style for passport and about */
+    .info{
+        width: 100%;
+        margin:0 auto;
+        margin-bottom: 10px;
+    }
+    /* each item in the about */
+    .self-info .details div{
+        padding-bottom: 10px;
+        font-size: 1.8rem;
+    }
+
+    /* the individual nav-btns disappears in small screens */
+    button[w-nav-btn]{
+        display: none;
+    }
+    /* the tab btns only to show in smaller screens */
+    .tab-btns{
+        width: 100%;
+        margin:0 auto;
+        background-color:#9aaab1;
+        border-radius: 5px 5px 0 0;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    /* each button in the tab-nav */
+    .tab-btns button{
+        padding: 20px;
+        font-size: 1.5rem;
+        border: 0;
+        outline: none;
+        background-color: #9aaab1;
+        text-align: center;
+        color: white;        
+    }
+    /* to give curve edge to the tab-nav*/
+    .tab-btns button.about{
+        border-radius: 5px 0 0 0;
+    }
+    .tab-btns button.contact{
+        border-radius: 0 5px 0 0;
+    }
+    .tab-btns button:hover{
+        background-color: #deebf1;
+    }
+    /* when each button has a class of active turn the background white */
+    .tab-btns button.active{
+        background-color: white;
+        color: black;
+    }
+    /* main section containing the tabs */
+    main.display-section{
+        width: 100%;
+    }
+    /* the tabs container*/
+    main.display-section .tabs-container{
+        border-radius: 0 0 5px 5px;
+        width: 100%;
+    }
+}
+
+/* JS classes */
+.show {
+    display: block;
+}
+
+/* define animation for fade-in on tab switch*/
+@keyframes fade-in{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
