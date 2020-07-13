@@ -5,23 +5,23 @@
 Here are the projects I worked on for practice during this 100 days. Few of them were started before the 100 days but i completed them during the 100 days. The link to the github repo and the demo websites are provided.
 
 ###### In no particular order, 
-* FUTA SITE CLONE 
+* FUTA SITE CLONE - A clone of [this site](https://www.futa.edu.ng)
     * [REPO LINK](https://github.com/KodingNYoung/clone.futa.edu.ng)
     * [DEMO LINK](https://kodingnyoung.github.io/clone.futa.edu.ng/)
 
-* COUNTER APP
+* COUNTER APP 
     * [REPO LINK](https://github.com/KodingNYoung/practiceProjects/tree/master/1.%20Counter-project)
     * [DEMO LINK](https://kodingnyoung.github.io/practiceProjects/1.%20Counter-project)
 
-* CAREX SITE 
+* CAREX SITE
     * [REPO LINK](https://github.com/KodingNYoung/CAREX)
     * [DEMO LINK](https://kodingnyoung.github.io/CAREX/)
 
-* QUIZ APP 
+* QUIZ APP - a one page quiz app with vanilla js
     * [REPO LINK](https://github.com/KodingNYoung/practiceProjects/tree/master/8.%20Quiz%20App)
     * [DEMO LINK](https://kodingnyoung.github.io/practiceProjects/8.%20Quiz%20App)
 
-* TO DO APP
+* TO DO APP - a PWA made with vanilla js
     * [REPO LINK](https://github.com/KodingNYoung/ToDo-PWA)
     * [DEMO LINK](https://kodingnyoung.github.io/ToDo-PWA/)
 
@@ -29,19 +29,19 @@ Here are the projects I worked on for practice during this 100 days. Few of them
     * [REPO LINK](https://github.com/KodingNYoung/30DaysOfCodeMay/tree/master/Day2)
     * [DEMO LINK](https://kodingnyoung.github.io/30DaysOfCodeMay/Day2/)
 
-* PARALLEL EFFECT WEBSITE (FULL EFFECT ON PC)
+* PARALLEL EFFECT WEBSITE (FULL EFFECT ON PC) - HTML and CSS only
     * [REPO LINK](https://github.com/KodingNYoung/30daysofcode_day8)
     * [DEMO LINK](https://kodingnyoung.github.io/30daysofcode_day8/)
 
-* GITHUB FINDER
+* GITHUB FINDER - made with the github API
     * [REPO LINK](https://github.com/KodingNYoung/30DaysOfCodeMay/tree/master/Day%2015)
     * [DEMO LINK](https://kodingnyoung.github.io/30DaysOfCodeMay/Day%2015/)
 
-* NOTE APP 
+* NOTE APP - a note app
     * [REPO LINK](https://github.com/KodingNYoung/30DaysOfCodeMay/tree/master/Day6)
     * [DEMO LINK](https://kodingnyoung.github.io/30DaysOfCodeMay/Day6/)
 
-* AN AJAX LIBRARY 
+* AN AJAX LIBRARY - an ajax library made to make sending HTTP request easy
     * [REPO LINK](https://github.com/KodingNYoung/practiceProjects/tree/master/7.%20HTTPLibrary-AJAX)
 
 * BMI CALCULATOR
