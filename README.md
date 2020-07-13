@@ -1,10 +1,8 @@
-# MyPortfolioPage
-
 ##### So, 100 days back i joined the \#100DaysOfCode challenge. Through the 100 days, i was able to learn vanilla Javascript from almost zero experience to some level where i can build web apps including progressive web apps. I also improved my HTML5 and CSS3 skills.
 
 ***
 
-##### Here are the projects I worked on for practice during this 100 days. Few of them were started before the 100 days but i completed them during the 100 days. The link to the github repo and the demo websites are provided.
+Here are the projects I worked on for practice during this 100 days. Few of them were started before the 100 days but i completed them during the 100 days. The link to the github repo and the demo websites are provided.
 
 ###### In no particular order, 
 * FUTA SITE CLONE 
