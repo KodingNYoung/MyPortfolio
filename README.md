@@ -75,3 +75,7 @@ Here are the projects I worked on for practice during this 100 days. Few of them
 * GUESSING GAME - can you guess the number right?
     * [REPO LINK](https://github.com/KodingNYoung/practiceProjects/tree/master/5.%20Guessing-game)
     * [DEMO LINK](https://kodingnyoung.github.io/practiceProjects/5.%20Guessing-game)
+
+* MARIO ANIMATION - a scenario of mario and luigi riding bikes 
+    * [REPO LINK](https://github.com/KodingNYoung/mario-animation)
+    * [DEMO LINK](https://kodingnyoung.github.io/mario-animation)
