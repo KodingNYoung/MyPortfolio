@@ -21,7 +21,7 @@ Here are the projects I worked on for practice during this 100 days. Few of them
     * [REPO LINK](https://github.com/KodingNYoung/practiceProjects/tree/master/8.%20Quiz%20App)
     * [DEMO LINK](https://kodingnyoung.github.io/practiceProjects/8.%20Quiz%20App)
 
-* TO DO APP - a PWA made with vanilla js
+* TODO APP - make a todo list today. A PWA made with vanilla js.
     * [REPO LINK](https://github.com/KodingNYoung/ToDo-PWA)
     * [DEMO LINK](https://kodingnyoung.github.io/ToDo-PWA/)
 
@@ -29,7 +29,7 @@ Here are the projects I worked on for practice during this 100 days. Few of them
     * [REPO LINK](https://github.com/KodingNYoung/30DaysOfCodeMay/tree/master/Day2)
     * [DEMO LINK](https://kodingnyoung.github.io/30DaysOfCodeMay/Day2/)
 
-* PARALLEL EFFECT WEBSITE (FULL EFFECT ON PC) - HTML and CSS only
+* PARALLEL EFFECT WEBSITE (EFFECTIVE ON PC) - HTML and CSS only
     * [REPO LINK](https://github.com/KodingNYoung/30daysofcode_day8)
     * [DEMO LINK](https://kodingnyoung.github.io/30daysofcode_day8/)
 
@@ -37,22 +37,22 @@ Here are the projects I worked on for practice during this 100 days. Few of them
     * [REPO LINK](https://github.com/KodingNYoung/30DaysOfCodeMay/tree/master/Day%2015)
     * [DEMO LINK](https://kodingnyoung.github.io/30DaysOfCodeMay/Day%2015/)
 
-* NOTE APP - a note app
+* NOTE APP - make notes for future references
     * [REPO LINK](https://github.com/KodingNYoung/30DaysOfCodeMay/tree/master/Day6)
     * [DEMO LINK](https://kodingnyoung.github.io/30DaysOfCodeMay/Day6/)
 
 * AN AJAX LIBRARY - an ajax library made to make sending HTTP request easy
     * [REPO LINK](https://github.com/KodingNYoung/practiceProjects/tree/master/7.%20HTTPLibrary-AJAX)
 
-* BMI CALCULATOR
+* BMI CALCULATOR - know if you're underweighed or obesed using this calcultor
     * [REPO LINK](https://github.com/KodingNYoung/30DaysOfCodeMay/tree/master/Day3)
     * [DEMO LINK](https://kodingnyoung.github.io/30DaysOfCodeMay/Day3/)
 
-* LOAN CALCULATOR 
+* LOAN INTEREST CALCULATOR - calculate the interest on your loans 
     * [REPO LINK](https://github.com/KodingNYoung/practiceProjects/tree/master/4.%20LoanCalculator)
     * [DEMO LINK](https://kodingnyoung.github.io/practiceProjects/4.%20LoanCalculator)
 
-* CALCULATOR APP
+* CALCULATOR APP - calculate simple mathematics value
     * [REPO LINK](https://github.com/KodingNYoung/calculator)
     * [DEMO LINK](https://kodingnyoung.github.io/calculator/)
 
@@ -68,10 +68,10 @@ Here are the projects I worked on for practice during this 100 days. Few of them
     * [REPO LINK](https://github.com/KodingNYoung/login-and-signup)
     * [DEMO LINK](https://kodingnyoung.github.io/login-and-signup/)
 
-* BOOKLIST APP using OOP
+* BOOKLIST APP using OOP - compile the list of book you wish to read, or the list of book you've read
     * [REPO LINK](https://github.com/KodingNYoung/practiceProjects/tree/master/6.%20Book_List-OOP)
     * [DEMO LINK](https://kodingnyoung.github.io/practiceProjects/6.%20Book_List-OOP)
 
-* GUESSING GAME 
+* GUESSING GAME - can you guess the number right?
     * [REPO LINK](https://github.com/KodingNYoung/practiceProjects/tree/master/5.%20Guessing-game)
     * [DEMO LINK](https://kodingnyoung.github.io/practiceProjects/5.%20Guessing-game)
